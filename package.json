@@ -1,0 +1,29 @@
+{
+  "name": "apirestderoxana",
+  "version": "1.0.0",
+  "description": "Mi primera APIREST",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roximar727/apirestderoxana.git"
+  },
+  "author": "Roxana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roximar727/apirestderoxana/issues"
+  },
+  "homepage": "https://github.com/roximar727/apirestderoxana#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
