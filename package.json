@@ -8,7 +8,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/roximar727/APIRESTROXANA1.git"
+=======
+    "url": "https://github.com/roximar727/APIRESTROXANA.git"
+>>>>>>> 0a8e0955d19b3b00d8061d453153844c9df94a9d
   },
   "author": "Roxana",
   "license": "ISC",
