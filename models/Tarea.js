@@ -10,17 +10,18 @@ const TareaSchema = new mongoose.Schema({
     required: true,
   },
   correo: {
-    type: String, 
-    required: true, 
+    type: String,
+    required: true,
+    unique: true,
   },
   date: {
     type: Date,
     default: Date.now,
   },
-});
-const tarea = new Tarea({
-  title: req.body.title,
-  descripcion: req.body.descripcion,
+  fechaRegistro: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
-const Tarea = require('../models/Tarea');
+module.exports = mongoose.model('Tarea', TareaSchema); // ← singular
