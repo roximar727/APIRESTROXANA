@@ -12,7 +12,6 @@ const TareaSchema = new mongoose.Schema({
   correo: {
     type: String,
     required: true,
-    unique: true,
   },
   date: {
     type: Date,
